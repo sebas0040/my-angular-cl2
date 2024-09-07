@@ -1,0 +1,21 @@
+.mitexto{
+
+    color: blue;
+    font-size: 2rem;
+    font-family: Mingzat;
+
+}
+
+.encabezado{
+    color: red;
+}
+
+.tabla{
+    color: cadetblue;
+    background-color: rgb(170, 170, 214);
+    border-bottom: 10px;
+}
+.botones{
+    border-radius: 10px;
+    border-bottom: 12px;
+}

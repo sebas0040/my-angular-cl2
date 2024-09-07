@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --variableParrafo: 2rem;
+    --color: #2a9bba;
+    --colores-filas: #4d0c0c;
+    --colores-div-general: #b18533;
+    --ancho-div-general: 300px;
+    --margen-div-general: auto;
+    --colores-div-secundario: #ca1616;
+    --ancho-div-secundario: 200px;
+    --margen-div-secundario: auto;
+    --float-div-genera:left;
+    --float-div-sec:right;
+
+}
+
+body{
+    /*color: var(--color);
+    font-size: var(--colores-filas);*/
+}
+
+tr{
+    /*background-color: var(--color);*/
+}
+
+.general{
+    background-color: var(--colores-div-general);
+    width: var(--ancho-div-general);
+    margin: var(--margen-div-genral);
+    float: var(--float-div-genera)
+}
+
+.secundario{
+    background-color: var(--colores-div-secundario);
+    width: var(--ancho-div-secundario);
+    margin: var(--margen-div-secundario); 
+    float: var(--float-div-sec)
+}
